@@ -1,0 +1,18 @@
+digraph PI {
+    SP [label="Set Point"];
+    PR [label="Process"];
+    S1 [label="SP - PV"];
+    P  [label="Proportionate Controller:\nKₚ e(t)"];
+    I  [label="Integral Controller:\nKᵢ ∫e(t)"];
+    D  [label="Derivative Controller:\nKd = de(t)/dt"];
+    S2 [label="Σ"];
+
+    SP -> S1 [label="r(t)"];
+    PR -> S1 [label="PV = y(t)"];
+    S1 -> P  [label="e(t)"];
+    S1 -> I  [label="e(t)"];
+    P  -> S2;
+    I  -> S2;
+    D  -> S2;
+    S2 -> PR [label="u(t)"];
+}

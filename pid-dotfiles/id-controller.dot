@@ -1,0 +1,16 @@
+digraph ID {
+    SP [label="Set Point"];
+    PR [label="Process"];
+    S1 [label="SP - PV"];
+    I  [label="Integral Controller:\nKᵢ ∫e(t)"];
+    D  [label="Derivative Controller:\nKd = de(t)/dt"];
+    S2 [label="Σ"];
+
+    SP -> S1 [label="r(t)"];
+    PR -> S1 [label="PV = y(t)"];
+    S1 -> I  [label="e(t)"];
+    S1 -> D  [label="e(t)"];
+    I  -> S2;
+    D  -> S2;
+    S2 -> PR [label="u(t)"];
+}
