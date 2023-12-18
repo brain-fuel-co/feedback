@@ -4,7 +4,7 @@ digraph PD {
     PR [label="Process"];
     S1 [label="SP - PV"];
     P  [color=lightgreen,label="Proportionate Controller:\nKₚ e(t)"];
-    D  [color=palered,label="Derivative Controller:\nK_d = de(t)/dt"];
+    D  [color=red,label="Derivative Controller:\nK_d = de(t)/dt"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];

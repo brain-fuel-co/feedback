@@ -58,7 +58,7 @@
 <!-- D -->
 <g id="node5" class="node">
 <title>D</title>
-<ellipse fill="#000000" stroke="#000000" cx="335.58" cy="-203.43" rx="95.11" ry="27.93"/>
+<ellipse fill="red" stroke="red" cx="335.58" cy="-203.43" rx="95.11" ry="27.93"/>
 <text text-anchor="middle" x="335.58" y="-205.88" font-family="Times New Roman,serif" font-size="14.00">Derivative Controller:</text>
 <text text-anchor="middle" x="335.58" y="-190.13" font-family="Times New Roman,serif" font-size="14.00">K_d = de(t)/dt</text>
 </g>
