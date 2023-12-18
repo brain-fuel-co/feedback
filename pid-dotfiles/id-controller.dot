@@ -1,10 +1,9 @@
 digraph ID {
-    node [style=filled];
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
-    I  [color=lightblue,label="Integral Controller:\nKᵢ ∫e(t)"];
-    D  [color=red,label="Derivative Controller:\nKd = de(t)/dt"];
+    I  [style=filled,color=lightblue,label="Integral Controller:\nKᵢ ∫e(t)"];
+    D  [style=filled,color=red,label="Derivative Controller:\nK_d = de(t)/dt"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];

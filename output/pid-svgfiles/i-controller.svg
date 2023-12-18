@@ -12,13 +12,13 @@
 <!-- SP -->
 <g id="node1" class="node">
 <title>SP</title>
-<ellipse fill="none" stroke="black" cx="71.58" cy="-301.11" rx="44.58" ry="18"/>
+<ellipse fill="lightgrey" stroke="black" cx="71.58" cy="-301.11" rx="44.58" ry="18"/>
 <text text-anchor="middle" x="71.58" y="-295.69" font-family="Times New Roman,serif" font-size="14.00">Set Point</text>
 </g>
 <!-- S1 -->
 <g id="node3" class="node">
 <title>S1</title>
-<ellipse fill="none" stroke="black" cx="71.58" cy="-213.36" rx="41.58" ry="18"/>
+<ellipse fill="lightgrey" stroke="black" cx="71.58" cy="-213.36" rx="41.58" ry="18"/>
 <text text-anchor="middle" x="71.58" y="-207.94" font-family="Times New Roman,serif" font-size="14.00">SP &#45; PV</text>
 </g>
 <!-- SP&#45;&gt;S1 -->
@@ -31,7 +31,7 @@
 <!-- PR -->
 <g id="node2" class="node">
 <title>PR</title>
-<ellipse fill="none" stroke="black" cx="40.58" cy="-18" rx="40.58" ry="18"/>
+<ellipse fill="lightgrey" stroke="black" cx="40.58" cy="-18" rx="40.58" ry="18"/>
 <text text-anchor="middle" x="40.58" y="-12.57" font-family="Times New Roman,serif" font-size="14.00">Process</text>
 </g>
 <!-- PR&#45;&gt;S1 -->
@@ -44,7 +44,7 @@
 <!-- I -->
 <g id="node4" class="node">
 <title>I</title>
-<ellipse fill="none" stroke="lightblue" cx="180.58" cy="-115.68" rx="85.03" ry="27.93"/>
+<ellipse fill="lightblue" stroke="lightblue" cx="180.58" cy="-115.68" rx="85.03" ry="27.93"/>
 <text text-anchor="middle" x="180.58" y="-118.13" font-family="Times New Roman,serif" font-size="14.00">Integral Controller:</text>
 <text text-anchor="middle" x="180.58" y="-102.38" font-family="Times New Roman,serif" font-size="14.00">Kᵢ ∫e(t)</text>
 </g>
