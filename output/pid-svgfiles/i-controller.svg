@@ -44,7 +44,7 @@
 <!-- I -->
 <g id="node4" class="node">
 <title>I</title>
-<ellipse fill="none" stroke="black" cx="180.58" cy="-115.68" rx="85.03" ry="27.93"/>
+<ellipse fill="none" stroke="lightblue" cx="180.58" cy="-115.68" rx="85.03" ry="27.93"/>
 <text text-anchor="middle" x="180.58" y="-118.13" font-family="Times New Roman,serif" font-size="14.00">Integral Controller:</text>
 <text text-anchor="middle" x="180.58" y="-102.38" font-family="Times New Roman,serif" font-size="14.00">Kᵢ ∫e(t)</text>
 </g>

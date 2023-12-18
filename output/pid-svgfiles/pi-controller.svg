@@ -44,7 +44,7 @@
 <!-- P -->
 <g id="node4" class="node">
 <title>P</title>
-<ellipse fill="none" stroke="black" cx="162.58" cy="-203.43" rx="109.96" ry="27.93"/>
+<ellipse fill="none" stroke="green" cx="162.58" cy="-203.43" rx="109.96" ry="27.93"/>
 <text text-anchor="middle" x="162.58" y="-205.88" font-family="Times New Roman,serif" font-size="14.00">Proportionate Controller:</text>
 <text text-anchor="middle" x="162.58" y="-190.13" font-family="Times New Roman,serif" font-size="14.00">Kₚ e(t)</text>
 </g>
@@ -58,7 +58,7 @@
 <!-- I -->
 <g id="node5" class="node">
 <title>I</title>
-<ellipse fill="none" stroke="black" cx="375.58" cy="-203.43" rx="85.03" ry="27.93"/>
+<ellipse fill="none" stroke="red" cx="375.58" cy="-203.43" rx="85.03" ry="27.93"/>
 <text text-anchor="middle" x="375.58" y="-205.88" font-family="Times New Roman,serif" font-size="14.00">Integral Controller:</text>
 <text text-anchor="middle" x="375.58" y="-190.13" font-family="Times New Roman,serif" font-size="14.00">Kᵢ ∫e(t)</text>
 </g>

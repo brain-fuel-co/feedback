@@ -2,8 +2,8 @@ digraph PD {
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
-    P  [label="Proportionate Controller:\nKₚ e(t)"];
-    D  [label="Derivative Controller:\nKd = de(t)/dt"];
+    P  [color=green,label="Proportionate Controller:\nKₚ e(t)"];
+    D  [color=lightblue,label="Derivative Controller:\nKd = de(t)/dt"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];

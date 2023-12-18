@@ -2,7 +2,7 @@ digraph I {
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
-    I  [label="Integral Controller:\nKᵢ ∫e(t)"];
+    I  [color=lightblue,label="Integral Controller:\nKᵢ ∫e(t)"];
 
     SP -> S1 [label="r(t)"];
     PR -> S1 [label="PV = y(t)"];

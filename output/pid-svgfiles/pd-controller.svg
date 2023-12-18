@@ -44,7 +44,7 @@
 <!-- P -->
 <g id="node4" class="node">
 <title>P</title>
-<ellipse fill="none" stroke="black" cx="162.58" cy="-203.43" rx="109.96" ry="27.93"/>
+<ellipse fill="none" stroke="green" cx="162.58" cy="-203.43" rx="109.96" ry="27.93"/>
 <text text-anchor="middle" x="162.58" y="-205.88" font-family="Times New Roman,serif" font-size="14.00">Proportionate Controller:</text>
 <text text-anchor="middle" x="162.58" y="-190.13" font-family="Times New Roman,serif" font-size="14.00">Kₚ e(t)</text>
 </g>
@@ -58,7 +58,7 @@
 <!-- D -->
 <g id="node5" class="node">
 <title>D</title>
-<ellipse fill="none" stroke="black" cx="385.58" cy="-203.43" rx="95.11" ry="27.93"/>
+<ellipse fill="none" stroke="lightblue" cx="385.58" cy="-203.43" rx="95.11" ry="27.93"/>
 <text text-anchor="middle" x="385.58" y="-205.88" font-family="Times New Roman,serif" font-size="14.00">Derivative Controller:</text>
 <text text-anchor="middle" x="385.58" y="-190.13" font-family="Times New Roman,serif" font-size="14.00">Kd = de(t)/dt</text>
 </g>

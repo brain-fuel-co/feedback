@@ -2,8 +2,8 @@ digraph ID {
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
-    I  [label="Integral Controller:\nKᵢ ∫e(t)"];
-    D  [label="Derivative Controller:\nKd = de(t)/dt"];
+    I  [color=lightblue,label="Integral Controller:\nKᵢ ∫e(t)"];
+    D  [color=red,label="Derivative Controller:\nKd = de(t)/dt"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];
