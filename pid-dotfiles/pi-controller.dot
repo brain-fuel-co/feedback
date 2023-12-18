@@ -1,9 +1,10 @@
 digraph PI {
+    node [style=filled];
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
     P  [color=green,label="Proportionate Controller:\nKₚ e(t)"];
-    I  [color=red,label="Integral Controller:\nKᵢ ∫e(t)"];
+    I  [color=lightblue,label="Integral Controller:\nKᵢ ∫e(t)"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];

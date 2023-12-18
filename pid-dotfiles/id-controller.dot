@@ -1,4 +1,5 @@
 digraph ID {
+    node [style=filled];
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];

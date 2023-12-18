@@ -1,9 +1,10 @@
 digraph PD {
+    node [style=filled];
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
     P  [color=green,label="Proportionate Controller:\nKₚ e(t)"];
-    D  [color=lightblue,label="Derivative Controller:\nKd = de(t)/dt"];
+    D  [color=red,label="Derivative Controller:\nKd = de(t)/dt"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];
