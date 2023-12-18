@@ -3,7 +3,7 @@ digraph P {
     SP [label="Set Point"];
     PR [label="Process"];
     S1 [label="SP - PV"];
-    P  [color=green,label="Proportionate Controller:\nKₚ e(t)"];
+    P  [color=lightgreen,label="Proportionate Controller:\nKₚ e(t)"];
 
     SP -> S1 [label="r(t)"];
     PR -> S1 [label="PV = y(t)"];
