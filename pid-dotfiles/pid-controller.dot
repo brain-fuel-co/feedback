@@ -5,7 +5,7 @@ digraph PID {
     S1 [label="SP - PV"];
     P  [color=lightgreen,label="Proportionate Controller:\nKₚ e(t)"];
     I  [color=lightblue,label="Integral Controller:\nKᵢ ∫e(t)"];
-    D  [color=red,label="Derivative Controller:\nK_d = de(t)/dt"];
+    D  [color=palered,label="Derivative Controller:\nK_d = de(t)/dt"];
     S2 [label="Σ"];
 
     SP -> S1 [label="r(t)"];
